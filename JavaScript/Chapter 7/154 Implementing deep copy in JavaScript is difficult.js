@@ -13,7 +13,7 @@ function deepCopy(thing) {
       var key = keys[i];
       copy[key] = deepCopy(thing[key]);
     }
-  return copy;
+    return copy;
   } else {
     return thing;
   }

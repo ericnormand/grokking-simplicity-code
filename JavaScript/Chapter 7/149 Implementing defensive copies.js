@@ -35,3 +35,4 @@ function add_item_to_cart(name, price) {
   var cart_copy = deepCopy(shopping_cart);
   black_friday_promotion(cart_copy);
   shopping_cart = deepCopy(cart_copy);
+}
