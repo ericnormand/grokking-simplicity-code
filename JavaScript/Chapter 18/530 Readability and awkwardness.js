@@ -13,7 +13,7 @@ var reportLastYear = generateReport(productsLastYear);
 
 function generateReport(products) {
   return reduce(products, "", function(report, product) {
-    eturn report + product.name + " " + product.price + "\n";
+    return report + product.name + " " + product.price + "\n";
   });
 }
 
