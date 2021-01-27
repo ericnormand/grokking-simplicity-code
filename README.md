@@ -49,3 +49,5 @@ https://github.com/ericnormand/grokking-simplicity-code. If
 you find any typos, please open a pull request. For other
 issues in the code, please open an issue on the GitHub
 project.
+
+You can find other resources at https://grokkingsimplicity.com
