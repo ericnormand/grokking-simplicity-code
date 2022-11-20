@@ -32,7 +32,7 @@ function Queue(worker) {
 function calc_cart_worker(cart, done) {
   calc_cart_total(cart, function(total) {
     update_total_dom(total);
-    done(total);
+    done();
   });
 }
 
@@ -72,7 +72,7 @@ function DroppingQueue(max, worker) {
 function calc_cart_worker(cart, done) {
   calc_cart_total(cart, function(total) {
     update_total_dom(total);
-    done(total);
+    done();
   });
 }
 
